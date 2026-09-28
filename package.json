@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "kitchen-backend",
+  "version": "1.0.0",
+  "description": "Restaurant kitchen production & allergen verification backend (TypeScript + Node + SQLite)",
+  "scripts": {
+    "start": "node src/cli/index.js serve",
+    "demo": "node src/cli/index.js demo",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "node --test --experimental-strip-types tests/"
+  }
+}
